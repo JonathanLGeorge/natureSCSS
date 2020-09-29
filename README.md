@@ -1,3 +1,24 @@
+We are going to use:
+
+Fluid Grids and layouts
+-this will allow content to easily adapt to thr current viewport used to browse the website. We use % rather than px for all layout width/lengths.
+
+Flexible/Responsive images
+-images behave differently than text content and so we need to ensure that they also adapt nicely to the current viewport. we can make them flexable by defining their dimentions in %. Images take up a ton of space. so optimization is important usualy donr by image widths
+
+media queries
+-To change styles on certian viewport widths breakpoints allowing us to create different version of our website for different widths
+
+Layout types
+-float layouts - we will use this method for this example
+-flexbox
+-css grid
+
+we will build a simple grid system;
+-attribue selectors
+-not pseudo-classes
+-calc() in sass
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

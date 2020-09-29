@@ -1,0 +1,8 @@
+@mixin clearfix {
+  //appends sudo element after the element that will clear the floats
+  &::after {
+    content: ""; //otherwise sudo element will not appear on page
+    display: table; //displayingour clear fix. this is just a standar of some kind
+    clear: both; // clear float left or right
+  }
+}
