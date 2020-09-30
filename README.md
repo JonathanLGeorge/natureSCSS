@@ -19,6 +19,13 @@ we will build a simple grid system;
 -not pseudo-classes
 -calc() in sass
 
+extra learning:
+-utility classes
+-background-clip property
+-transform miltiple properties at once
+-outline-offset
+-style Not hovered elements
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
