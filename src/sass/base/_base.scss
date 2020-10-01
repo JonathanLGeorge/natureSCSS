@@ -1,1 +1,22 @@
-//these are partial sass files
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // This defines what 1rem is
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
+/*
+why 62.5%??? because wewant to use rems, and 10px is a good base for using rems
+the 62.5 comes from the standard web browser value of 16px. So we convert the defualt font size
+to be 62.5% of 16px which is really 10px. now everything can scale according to settings the user selects
+from their browser settings, and everything will translate as we expect
+*/
