@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import TestGrid from "./components/TestGrid";
 import About from "./components/About";
 import Features from "./components/Features";
+import Tours from "./components/Tours";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <main>
         <About />
         <Features />
+        <Tours />
       </main>
     </div>
   );
