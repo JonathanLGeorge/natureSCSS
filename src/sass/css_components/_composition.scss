@@ -1,0 +1,44 @@
+.composition {
+  position: relative;
+
+  &__photo {
+    width: 55%;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
+    border-radius: 2px;
+    //remember that absolute will refrence the parent element
+    position: absolute;
+    z-index: 10;
+    transition: all 0.2s;
+    //this is why when we hover we get that margined boarder radius
+    outline-offset: 2rem;
+
+    &--p1 {
+      left: 0;
+      top: -2rem;
+    }
+
+    &--p2 {
+      right: 0;
+      top: 2rem;
+    }
+
+    &--p3 {
+      left: 20%;
+      top: 10rem;
+    }
+
+    &:hover {
+      //our green boarder
+      outline: 1.5rem solid $color-primary;
+      //this will zoom in a little and moves up a bit
+      transform: scale(1.05) translateY(-0.5rem);
+      box-shadow: 0 2.5rem 4rem rgba($color-black, 0.5);
+      z-index: 20;
+    }
+  }
+  //shrink the photos that are not hovered when you hover over one
+  &:hover &__photo:not(:hover) {
+    transform: scale(0.95);
+  }
+  //composition:hover composition__photo:not(:hover) {
+}

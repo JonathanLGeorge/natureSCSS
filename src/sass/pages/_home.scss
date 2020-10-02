@@ -1,3 +1,25 @@
 .section-about {
-  background-color: $color-grey-light;
+  background-color: $color-grey-light-1;
+  padding: 25rem 0;
+  margin-top: -20vh;
+}
+
+.section-features {
+  padding: 20rem 0;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)
+    ),
+    url(../img/hero.jpg);
+  background-size: cover;
+  transform: skewY(-7deg);
+
+  //this is so we can have a smooth transition from the backgrournd
+  //without this you would see that white background
+  //margin-top: -5rem;
+  //this is to make the content not skewed selecting all the direct children
+  & > * {
+    transform: skewY(7deg);
+  }
 }
