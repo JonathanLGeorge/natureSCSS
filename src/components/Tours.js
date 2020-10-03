@@ -7,8 +7,10 @@ function Tours() {
         <h2 class="heading-secondary">Most popular tours</h2>
       </div>
 
+      {/*scss : layout/_grid*/}
       <div class="row">
         <div class="col-1-of-3">
+          {/*scss : css_components/_cards*/}
           <div class="card">
             <div class="card__side card__side--front">
               <div class="card__picture card__picture--1">&nbsp;</div>

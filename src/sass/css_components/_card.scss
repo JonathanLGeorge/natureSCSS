@@ -1,0 +1,39 @@
+.card {
+  perspective: 150rem;
+  //mozilla plug in
+  -moz-perspective: 150rem;
+  background-color: orangered;
+  height: 50rem;
+  transform: all 1s;
+  //this is so our children have a refrence
+  position: relative;
+  height: 50rem;
+
+  &__side {
+    color: #fff;
+    font-size: 2rem;
+    height: 50rem;
+    transition: all 1s ease;
+    //this will stack the two cards on top of eachother
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    //this will hide the back part once fliped
+    backface-visibility: hidden;
+
+    &--front {
+      background-color: $color-white;
+    }
+    &--back {
+      background-color: palegreen;
+      transform: rotateY(180deg);
+    }
+  }
+  &:hover &__side--front {
+    transform: rotateY(180deg);
+  }
+  &:hover &__side--back {
+    transform: rotateY(0);
+  }
+}

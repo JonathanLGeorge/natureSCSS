@@ -2,7 +2,7 @@ import React from "react";
 
 import "./sass/main.css";
 import Header from "./components/Header";
-import TestGrid from "./components/TestGrid";
+//import TestGrid from "./components/TestGrid";
 import About from "./components/About";
 import Features from "./components/Features";
 import Tours from "./components/Tours";
