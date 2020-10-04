@@ -27,6 +27,7 @@ extra learning:
 -style Not hovered elements
 
 Linea.io for free icons
+unsplash.com for free images
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

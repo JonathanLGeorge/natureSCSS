@@ -33,17 +33,17 @@ function About() {
         <div class="col-1-of-2">
           <div class="composition">
             <img
-              src="img/nat-1-large.jpg"
+              src="img/nat-5.jpg"
               alt="Photo 1"
               class="composition__photo composition__photo--p1"
             />
             <img
-              src="img/nat-2-large.jpg"
+              src="img/nat-5.jpg"
               alt="Photo 2"
               class="composition__photo composition__photo--p2"
             />
             <img
-              src="img/nat-3-large.jpg"
+              src="img/nat-5.jpg"
               alt="Photo 3"
               class="composition__photo composition__photo--p3"
             />
